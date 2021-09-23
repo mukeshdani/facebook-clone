@@ -1,4 +1,5 @@
-import React from "react";
+ 
+ import React from "react";
 
 const HeaderUserMeta = ({ ProfileURL, Avatar, FullName }) => {
   return (
@@ -14,5 +15,6 @@ const HeaderUserMeta = ({ ProfileURL, Avatar, FullName }) => {
     </div>
   );
 };
+
 
 export default HeaderUserMeta;
