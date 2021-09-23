@@ -1,0 +1,59 @@
+.Sidebar {
+  .UserMeta {
+    margin-bottom: 10px;
+    a {
+      text-decoration: none;
+      color: #000;
+      img {
+        margin-right: 5px;
+        width: 1.5em;
+        border-radius: 100%;
+        border: 1px solid rgba(#000, 0.5);
+        position: relative;
+        top: -2px;
+      }
+    }
+  }
+  h3 {
+    text-transform: uppercase;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 25px;
+  }
+  &-Links {
+    font-size: 0.9em;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      padding: 0;
+      list-style: none;
+      a {
+        display: block;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        color: #333;
+        &.active,
+        &:hover {
+          border: 1px solid #ddd;
+          background-color: rgba(#fff, 0.75);
+          color: #000;
+        }
+        position: relative;
+        padding: 3px;
+        padding-left: 28px;
+        text-decoration: none;
+        span {
+          left: 4px;
+          top: 4px;
+          position: absolute;
+          display: inline-block;
+          transform: scale(3.5%);
+          transform-origin: 0 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.Feed {
+  .BirthdayContainer,
+  .FeedsContainer,
+  .PagesContainer {
+    padding: 3px;
+    font-size: 0.85em;
+    h4 {
+      font-size: 1.15em;
+      font-weight: 600;
+      span {
+        font-size: 0.85em;
+        position: relative;
+        top: -1px;
+      }
+    }
+  }
+  .BirthdayContainer {
+    img {
+      height: 1.25em;
+      position: relative;
+      top: -2px;
+      margin-right: 5px;
+    }
+    a {
+      font-weight: 600;
+      color: #006;
+      text-decoration: none;
+    }
+  }
+  .PagesContainer {
+    margin-bottom: -10px;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        margin: 0;
+        padding: 10px 0;
+        list-style: none;
+        display: flex;
+        border-top: 1px solid #ddd;
+        &:first-child {
+          border-top: 0;
+          padding-top: 0;
+        }
+        img {
+          cursor: pointer;
+          width: 64px;
+          height: 64px;
+          border-radius: 5px;
+          margin-right: 10px;
+        }
+        .PageMeta {
+          a {
+            display: block;
+            text-decoration: none;
+            color: #999;
+            img {
+              width: 1.25em;
+              height: 1.25em;
+              position: relative;
+              top: -2px;
+              margin-right: 5px;
+            }
+            strong {
+              color: #333;
+            }
+          }
+        }
+      }
+    }
+  }
+  .FeedsContainer {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        margin: 0;
+        padding: 10px 0;
+        list-style: none;
+        .card-body {
+          padding: 5px;
+          a {
+            color: inherit;
+            font-weight: 600;
+            text-decoration: none;
+          }
+          p {
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+  }
+}

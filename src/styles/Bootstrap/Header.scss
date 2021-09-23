@@ -1,0 +1,43 @@
+.Header {
+  margin-bottom: 10px;
+  &.bg-light {
+    background-color: #5464b9 !important;
+    font-size: 0.85em;
+  }
+  &.navbar-light {
+    .navbar-brand {
+      color: #fff;
+      padding: 0;
+      img {
+        height: 1.5em;
+        position: relative;
+        top: -2px;
+      }
+    }
+    .UserMeta {
+      img {
+        width: 2em;
+        border-radius: 100%;
+        border: 1px solid rgba(#000, 0.5);
+        line-height: 1;
+        margin-right: 8px;
+        position: relative;
+        top: -2px;
+      }
+      a {
+        text-decoration: none;
+        font-weight: 600;
+        color: rgba(#fff, 0.75);
+      }
+      .nav-links {
+        margin-left: 15px;
+        font-size: 0.9em;
+        a {
+          border-left: 1px solid rgba(#000, 0.25);
+          margin-left: 15px;
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}

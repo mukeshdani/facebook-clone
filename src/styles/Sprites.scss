@@ -1,0 +1,32 @@
+.Sprite {
+  &-chat {
+    width: 512px;
+    height: 512px;
+    background: url("https://i.imgur.com/EOXSrOv.png") -10px -10px;
+  }
+  &-market {
+    width: 512px;
+    height: 512px;
+    background: url("https://i.imgur.com/EOXSrOv.png") -542px -10px;
+  }
+  &-news {
+    width: 512px;
+    height: 512px;
+    background: url("https://i.imgur.com/EOXSrOv.png") -10px -542px;
+  }
+  &-watch {
+    width: 512px;
+    height: 512px;
+    background: url("https://i.imgur.com/EOXSrOv.png") -542px -542px;
+  }
+  &-web {
+    width: 512px;
+    height: 512px;
+    background: url("https://i.imgur.com/EOXSrOv.png") -1074px -10px;
+  }
+  &-yt {
+    width: 512px;
+    height: 512px;
+    background: url("https://i.imgur.com/EOXSrOv.png") -1074px -542px;
+  }
+}

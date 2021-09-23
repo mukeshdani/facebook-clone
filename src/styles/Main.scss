@@ -1,0 +1,75 @@
+.Main {
+  .PostUserMeta {
+    display: flex;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #f0f0f0;
+    > a {
+      display: block;
+      padding: 5px;
+      img {
+        border-radius: 5px;
+        display: block;
+        height: 55px;
+      }
+    }
+    &-Meta {
+      p {
+        + p {
+          font-size: 0.85em;
+        }
+        a {
+          text-decoration: none;
+          color: #333;
+        }
+      }
+    }
+  }
+  .FBBox > {
+    p {
+      padding: 5px;
+      margin: 0;
+    }
+    img {
+      max-width: 100%;
+    }
+    .embed-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      object {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .PostActions {
+    color: #999;
+    padding: 3px 0 0;
+    font-size: 0.7em;
+    a {
+      font-size: 1.25em;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0 2px;
+    }
+  }
+}
