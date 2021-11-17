@@ -1,6 +1,6 @@
-<h1 align="center">Facebook Clone 👍</h1>
+<h1 align="center">Facebook Clone</h1>
 
-**[Edusera: Facebook Clone ~ Resources👉](https://github.com/mukeshdani/facebook-clone)** *Using React JS And Bootstrap4*
+**[Facebook Clone ~ Resources👉](https://github.com/mukeshdani/facebook-clone)** *Using React JS And Bootstrap4*
 
 <div align="center">
 
